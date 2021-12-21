@@ -46,7 +46,10 @@ public class dummyEmployeeStepDef {
         dummyEmployee.deleteEmployeeById(id);
 
     }
-
+    @When("^make a get call of each actor by \"([^\"]*)\"$")
+    public void make_a_get_call_of_each_actor_by(String arg1) throws Throwable {
+          dummyEmployee.getCallByActor(String id);
+    }
 
     }
 

@@ -38,10 +38,10 @@ Scenario: validate post all employee info
         When make a delete call by "<id>"
         Examples:
         | id |
-        | 8  |
-        | 7  |
-        | 2  |
-        | 9  |
+        | 6  |
+        | 10 |
+        | 11 |
+        | 19 |
 
 
         Scenario Outline: Validate get for of each actor

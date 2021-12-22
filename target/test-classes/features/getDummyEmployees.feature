@@ -39,6 +39,9 @@ Scenario: validate post all employee info
         Examples:
         | id |
         | 8  |
+        | 23 |
+        | 16 |
+        | 4  |
 
 
         Scenario Outline: Validate get for of each actor

@@ -46,8 +46,8 @@ Scenario: validate post all employee info
           Examples:
             | id |
             | 9 |
-            | 20 |
-            | 71 |
+            | 121 |
+            | 73 |
             | 63 |
 
 
